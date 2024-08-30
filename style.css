@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=IBM+Plex+Mono:wght@100;400&family=Orbitron&family=Victor+Mono:ital@0;1&display=swap');
+
+
+/* font-family: "IBM Plex Mono", monospace; */
+/* font-family: "Orbitron", sans-serif; */
+/* font-family: "Victor Mono", monospace; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color:#212a34;
+    --second-bg-color:#353f4e;
+    --text-color:#fff;
+    --main-color:#d80404;
+}
+
+body{
+    background: var(--bg-color);
+    /* color: var(--text-color); */
+}
+
+body a{
+    color: var(--text-color);
+}
