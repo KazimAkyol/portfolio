@@ -2,7 +2,7 @@
 
 
 /* font-family: "IBM Plex Mono", monospace; */
-/* font-family: "Orbitron", sans-serif; */
+
 /* font-family: "Victor Mono", monospace; */
 
 *{
@@ -31,3 +31,33 @@ body a{
 
 /* HEADER */
 
+.header{
+    border: 2px solid red;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+
+}
+
+.logo{
+    border: 2px solid orange;
+    font-size: 2rem;
+    color: var(--main-color);
+    font-weight: 600;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+.navbar{
+    border: 2px solid yellow;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.navbar a{
+    font-size: 1.2rem;
+}
