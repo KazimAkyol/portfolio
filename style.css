@@ -60,4 +60,10 @@ body a{
 
 .navbar a{
     font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.navbar a:hover,
+.navbar a:active{
+    color: var(--main-color);
 }
