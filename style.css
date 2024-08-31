@@ -282,3 +282,38 @@ span{
 }
 
 /* PROJECT */
+
+.projects{
+    padding: 3rem;
+    background-color: var(--second-bg-color);
+
+}
+
+.projects h2{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 2rem;
+
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid red;
+
+}
+
+.projects-box{
+    flex: 1 1 20rem;
+    border: 2px solid red;
+
+}
+
+.projects-box img{
+    width: 100%;
+}
+
+
+
