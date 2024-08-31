@@ -107,6 +107,7 @@ section{
     width: 100%;
     max-width: 30rem;
     border-radius: 10%;
+    animation: floatImage 3s ease-in-out infinite;
 }
 
 .home-content h3{
@@ -189,6 +190,7 @@ section{
     width: 100%;
     max-width: 20rem;
     border-radius: 10%;
+    animation: floatImage 3s ease-in-out infinite;
 
 }
 
@@ -384,3 +386,17 @@ span{
     transform: scale(1.02);
     box-shadow: 0 0 3rem var(--main-color);
 }
+
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.5rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@media (max-width:992px)
