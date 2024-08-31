@@ -293,6 +293,7 @@ span{
     padding-top: 6rem;
     padding-bottom: 6rem;
     margin-bottom: 2rem;
+    color: #fff;
 
 }
 
@@ -301,18 +302,44 @@ span{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 
 .projects-box{
     flex: 1 1 20rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
 
 }
 
 .projects-box img{
     width: 100%;
+}
+
+.pro{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(100);
+    transition: all 1s;
+    text-align: center;
+    
+}
+
+.pro a{
+    font-size: 2rem;
+    font-family: "Orbitron", sans-serif;
+    color: var(--main-color);
+
+}
+
+.projects-box:hover .pro{
+    transform: translateY(0);
 }
 
 
