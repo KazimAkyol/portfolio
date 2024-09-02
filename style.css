@@ -287,7 +287,6 @@ span {
 
 .projects-box {
   flex: 1 1 20rem;
-  /* border: 2px solid red; */
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -315,7 +314,7 @@ span {
 }
 
 .projects-box:hover .pro {
-  transform: translateY(0);
+  /* transform: translateY(0); */
 }
 
 /* FOOTER */
